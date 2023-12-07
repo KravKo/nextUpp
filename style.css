@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Rubik:wght@500&display=swap');
+/*
+font-family: 'Inconsolata', monospace;
+font-family: 'Rubik', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&display=swap');
+/*font-family: 'Dhurjati', sans-serif;*/
+
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #7B66FF;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    background-color: #31304D;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.logo span {
+    font-size: 30px;
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 60px;
+    /* Adjust the width of the logo as needed */
+    margin-right: 10px;
+}
+
+.nav-links {
+
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 50px;
+}
+
+.nav-links li:hover {
+    opacity: 0.7;
+}
+
+
+.nav-links a {
+
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.left_box{
+    position: absolute;
+    top: 30%;
+    width: 400px;
+    height: 400px;
+    background-color: #87CEEB;
+    border-radius: 0% 50% 50% 0%;
+}
+
+.text {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    color: white;
+}
+
+.text h1 {
+    text-shadow: 0 2px 4px purple;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Rubik', sans-serif;
+}
+
+.text h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text button{
+    width: 180px;
+    height: 80px;
+    background-color: #161A30;
+    color: white;
+    font-size: 25px;
+    font-family: 'Dhurjati', sans-serif;
+    border: 0px;
+    margin-left: 200px;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    transition: color,background-color 0.5s ease;
+}
+
+.text button:hover{
+    cursor: pointer;
+    content: "Website";
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+}
+
+
+
+
+.half-circle {
+    position: absolute;
+    top: 15%;
+    left: 60%;
+    width: 600px;
+    height: 600px;
+    background-color: #87CEEB;
+    border-radius: 50% 0 0% 50%;
+}
+
+.image-fade {
+    position: absolute;
+    top: 70px;
+    right: 20%;
+    width: 700px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    pointer-events: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.image-fade.active {
+    opacity: 1;
+    pointer-events: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
