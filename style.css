@@ -269,20 +269,20 @@ body {
         position: absolute;
         top: 15%;
         left: 20%;
-        width: 300px;
+        width: 280px;
         color: white;
-        font-size: 17px;
+        font-size: 12px;
     }
 
     .text button {
-        width: 100px;
-        height: 50px;
-        font-size: 15px;
-        margin-left: 135x;
+        width: 80px;
+        height: 40px;
+        font-size: 12px;
+        margin-left: 120px;
     }
 
     .text button:hover{
-        font-size: 15px;
+        font-size: 11px;
         cursor: pointer;
         border: 2px solid black;
         background-color: transparent;
